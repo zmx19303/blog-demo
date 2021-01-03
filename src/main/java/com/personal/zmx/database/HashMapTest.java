@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.Scanner;
 
 /**
- * <p>TODO</p>
+ * <p>HashMap测试</p>
  *
  * @author chaomeng
  * @version V1.0.0
@@ -15,8 +15,8 @@ public class HashMapTest {
 
     @Test
     public void tableSizeForTest() {
-//        int n = 1 << 30;
-//        System.out.println(n);
+        int n = 1 << 30;
+        System.out.println(n);
         Scanner sc = new Scanner(System.in);
         while (true) {
             int i = sc.nextInt();
